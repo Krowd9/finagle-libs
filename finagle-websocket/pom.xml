@@ -51,16 +51,24 @@
       <artifactId>scalatest_2.10</artifactId>
       <version>${scalatest.version}</version>
       <scope>test</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.scala-lang</groupId>
+          <artifactId>scala-library</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.scala-lang</groupId>
       <artifactId>scala-library</artifactId>
       <version>${scala-library.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>com.twitter</groupId>
       <artifactId>finagle-core_2.10</artifactId>
       <version>${finagle.version}</version>
+      <scope>provided</scope>
     </dependency>
 	</dependencies>
 
