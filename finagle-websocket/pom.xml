@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.krowd9.finagle</groupId>
-	<artifactId>finagle-websocket</artifactId>
+	<artifactId>finagle-websocket_2.10</artifactId>
 	<version>0.1.0</version>
 	<packaging>jar</packaging>
 
